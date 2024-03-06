@@ -45,6 +45,7 @@ pipeline {
          stage('Clear Docker Components') {
             steps {
                 script {
+                    sh 'echo clear docker Jenkins............'
                     // Remove Docker images and containers
                     // sh 'docker stop $(docker ps -a -q)'  
                     // sh  'docker rm $(docker ps -a -q)' 
