@@ -42,7 +42,7 @@ pipeline {
             }
         }
 
-        stage('Clear Docker Components') {
+         stage('Clear Docker Components') {
             steps {
                 script {
                     // Remove Docker images and containers
